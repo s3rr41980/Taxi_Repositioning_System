@@ -1,6 +1,6 @@
 # 🚕 Taxi Repositioning System (TRS)
 
-Week 6 Interim Project for **Generation Singapore Jr. Data Engineering Programme (JDE07)**  
+Week 5 Interim Project for **Generation Singapore Jr. Data Engineering Programme (JDE07)**  
 Designed a **real-time ETL pipeline** leveraging API data and PostgreSQL to optimise taxi fleet distribution in Singapore.
 
 ---
