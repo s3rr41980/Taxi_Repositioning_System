@@ -30,16 +30,16 @@ The Taxi Repositioning System (TRS) is a **real-time micro-batch streaming ETL p
 1. Fetch live taxi data from LTA API  
 2. Timestamp and batch records  
 3. Clean & transform data (null handling, de-duplication, re-indexing)  
-4. Map coordinates to Singapore planning areas (geospatial tagging + recommendations)  
+4. Live mapping of available taxis to Singapore places (geospatial tagging + recommendations)  
 5. Load structured data into PostgreSQL with relational schema  
 6. Run SQL queries & visualisations for analytics and fleet optimisation  
 
 ---
 
 ## 🌟 Key Features
-- **Live Ingestion (Micro-batch):** Automated API polling with batch appends  
+- **Live Ingestion (Micro-batch):** Automated API extraction with batch processing and appends  
 - **Data Cleaning & Transformation:** Handles duplicates, nulls, re-indexing, and surrogate keys  
-- **Geospatial Tagging:** Maps taxi coordinates to real-world neighbourhoods  
+- **Geospatial Tagging:** Maps taxi coordinates to Singapore neighbourhoods  
 - **PostgreSQL Schema:** Relational tables with foreign-key integrity and idempotent DDL  
 - **Analytics & Visualisation:** SQL queries and Python charts to reveal underserved vs oversupplied areas  
 
@@ -55,6 +55,3 @@ The Taxi Repositioning System (TRS) is a **real-time micro-batch streaming ETL p
 ## 🎓 Skills Demonstrated
 Python (Pandas, Matplotlib), API Integration, ETL Pipelines, PostgreSQL, SQL Queries,  
 Data Cleaning, Data Visualisation, Geospatial Analysis
-
-
-
