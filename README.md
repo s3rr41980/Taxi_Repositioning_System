@@ -3,7 +3,7 @@
 Week 5 Interim Project for **Generation Singapore Jr. Data Engineering Programme (JDE07)**  
 Co-designed a **real-time ETL pipeline** leveraging API data and PostgreSQL to optimise taxi fleet distribution in Singapore.
 
-![Overall Project Architecture](Taxi%20Repositiong%20System%20(TRS)%20Image.png)
+![Taxi Repositioning System](<Taxi Repositioning System (TRS) Image.png>)
 
 ---
 
